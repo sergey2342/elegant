@@ -1,0 +1,16 @@
+.main {
+    background: url(../img/index-bg.png) bottom (center/cover) no-repeat;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-hello {
+        color: #ffffff;
+        font-size: 80px;
+        font-weight: 300;
+        letter-spacing: 4px;
+        span {
+            font-style: italic;
+        }
+    }
+}

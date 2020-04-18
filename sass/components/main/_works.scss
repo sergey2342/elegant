@@ -1,0 +1,20 @@
+.works {
+    padding-bottom: 80px;
+    &-img {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        img {
+            padding: 1px;
+            cursor: pointer;
+            filter: grayscale(100%);
+            transition: 0.6s all;
+            &:hover {
+                filter: grayscale(0%);
+                transition: 0.6 all;
+            }
+        }
+    }
+}

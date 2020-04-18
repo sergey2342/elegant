@@ -1,0 +1,71 @@
+.people {
+    padding-bottom: 80px;
+    &-text {
+        margin-top: 45px;
+        color: #021725;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 0.9px;
+        text-align: center;
+    }
+    &-cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &-item {
+        background-color: #f9f9f9;
+        width: 250px;
+        margin-top: 50px;
+        filter: grayscale(100%);
+        transition: 0.7s all;
+        cursor: pointer;
+        img {
+            width: 100%;
+            cursor: pointer;
+        }
+        &:hover {
+            filter: grayscale(0%);
+            transition: 0.7s all;
+            .people-descr {
+                color: #021725;
+                transition: 0.7s all;
+            }
+            .people-name {
+                color: #021725;
+                transition: 0.7s all;
+            }
+        }
+    }
+    &-title {
+        margin-top: 15px;
+        margin-left: 17px;
+        color: #d4af37;
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.65px;
+        cursor: pointer;
+    }
+    &-name {
+        margin-top: 15px;
+        margin-left: 17px;
+        color: #0217255e;
+        font-size: 21px;
+        letter-spacing: 1.05px;
+        cursor: pointer;
+        transition: 0.7s all;
+    }
+    &-descr {
+        margin-top: 25px;
+        margin-left: 17px;
+        padding-right: 20px;
+        padding-bottom: 45px;
+        color: #0217254e;
+        font-size: 13px;
+        line-height: 23px;
+        letter-spacing: 0.65px;
+        cursor: pointer;
+        transition: 0.7s all;
+    }
+}

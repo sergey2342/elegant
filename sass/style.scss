@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo:400,700|Open+Sans:300,400,600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    //font-family: 'Cardo', serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    user-select: none;
+}
+
+.container {
+    width: 770px;
+    margin: 0 auto;
+}
+
+.label {
+    margin-top: 80px;
+    color: #d4af37;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.65px;
+    text-align: center;
+}
+
+.title {
+    margin-top: 20px;
+    color: #021725;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 2.2px;
+    text-align: center;
+}
+
+
+@import 'components/main/hamburger';
+@import 'components/main/header';
+@import 'components/main/main';
+@import 'components/main/about';
+@import 'components/main/works';
+@import 'components/main/people';
+@import 'components/main/posts';
+@import 'components/main/contacts';
+@import 'components/main/footer';
+
+@import 'components/about/about-bg';
+@import 'components/about/about-text';
+@import 'components/about/services';
+
+@import 'components/work/work-bg';
+@import 'components/work/work-portfolio';
+
+@import 'components/blog/blog-bg';
+@import 'components/blog/blog-posts';
+
+@import 'components/contact/contact-bg';
+@import 'components/contact/contact-item';

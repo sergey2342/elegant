@@ -1,0 +1,19 @@
+.footer {
+    height: 90px;
+    background-color: #eeeeee;
+    &-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 90px;
+    }
+    &-col {
+        text-align: center;
+        color: #505d68;
+        font-size: 16px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+}

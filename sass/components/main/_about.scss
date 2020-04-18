@@ -1,0 +1,35 @@
+.about {
+    position: relative;
+    padding-bottom: 80px;
+    &-text {
+        color: #021725;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 0.9px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    &-button {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #021725;
+        font-size: 14px;
+        letter-spacing: 0.7px;
+        text-decoration: none;
+        width: 238px;
+        height: 57px;
+        border: 1px solid #000000;
+        cursor: pointer;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 45px;
+        transition: 0.3s all;
+        &:hover {
+            color: #fff;
+            background-color: #000;
+            transition: 0.3s all;
+        }
+    }
+}

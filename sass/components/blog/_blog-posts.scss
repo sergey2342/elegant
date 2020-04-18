@@ -1,0 +1,121 @@
+.blog-posts {
+    width: 1150px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 65px 60px 65px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    &-item:first-child {
+        width: 64%;
+    }
+    &-item:nth-child(2) {
+        width: 36%;
+        padding-left: 70px;
+    }
+    &-item {
+        &-label {
+            color: #0217257e;
+            font-size: 23px;
+            letter-spacing: 0.46px;
+            &-second {
+                margin-top: 50px;
+            }
+        }
+        &-line {
+            margin: 15px 0 35px 0;
+            width: 297px;
+            height: 3px;
+            background-color: #d3b000;
+        }
+        &-text {
+            color: #0217257e;
+            font-size: 16px;
+            line-height: 32px;
+            cursor: pointer;
+            transition: 0.4s all;
+            &:hover {
+                transition: 0.4s all;
+                color: #021725;
+            }
+        }
+        img {
+            cursor: pointer;
+            transition: 0.7s all;
+            filter: grayscale(100%);
+            width: 100%;
+            &:hover {
+                transition: 0.7s all;
+                filter: grayscale(0%);
+            }
+        }
+    }
+    &-post {
+        padding: 30px 30px 45px 30px;
+        background-color: #fff;
+        &-second {
+            margin-top: 55px;
+        }
+    }
+    &-label {
+        margin-top: 25px;
+        color: #000000;
+        font-size: 30px;
+        letter-spacing: 1.05px;
+    }
+    &-date {
+        margin-top: 25px;
+        color: #d3b000;
+        font-size: 15px;
+    }
+    &-text {
+        margin-top: 30px;
+        color: #021725;
+        font-family: 'Cardo', serif;
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: 0.08px;
+    }
+    &-button {
+        margin-top: 60px;
+        color: #021725;
+        font-size: 16px;
+        letter-spacing: 0.8px;
+        width: 191px;
+        height: 48px;
+        border: 1px solid #000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.4s all;
+        &:hover {
+            transition: 0.4s all;
+            color: #fff;
+            background-color: #000;
+        }
+    }
+    &-item:last-child {
+        width: 100%;
+        margin-top: 60px;
+        .button {
+            margin: 0 auto;
+            width: 239px;
+            height: 59px;
+            border: 1px solid #000000;
+            font-size: 16px;
+            letter-spacing: 0.8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: 0.4s all;
+            &:hover {
+                transition: 0.4s all;
+                color: #fff;
+                background-color: #000;
+            }
+        }
+    }
+}
