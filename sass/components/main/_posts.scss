@@ -5,6 +5,7 @@
         margin-top: 50px;
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
     }
     &-col:first-child {
         width: 50%;
