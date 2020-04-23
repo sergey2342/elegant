@@ -4,13 +4,14 @@ document.addEventListener('DOMContentLoaded', ()=> {
     let hamburger = document.querySelector('.ham5'),
         menu = document.querySelector('.header-menu'),
         header = document.querySelector('.header-item'),
-        animation = document.querySelectorAll('.a');
+        animation = document.querySelectorAll('.a'),
+        name = document.querySelector('.header-name');
 
-    menu.addEventListener('click', ()=> {
-        hamburger.classList.toggle('active');
-    });
 
 	menu.addEventListener('click', ()=> {
+        hamburger.classList.toggle('active');
+        menu.classList.toggle('line-active');
+        name.classList.toggle('header-name-active');
 
 		if(hamburger.classList.contains('active')) {
 			document.body.style.overflow = 'hidden';

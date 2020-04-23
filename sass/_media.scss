@@ -119,6 +119,9 @@
 }
 
 @media (max-width: 424px) {
+    .line {
+        stroke: #fff;
+    }
     .label {
         margin-top: 0px;
         &-first {
@@ -140,6 +143,9 @@
                     letter-spacing: 4px;
                 }
             }
+        }
+        &-name {
+            color: #fff;
         }
         &-logo {
             display: flex;
