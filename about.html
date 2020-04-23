@@ -8,22 +8,31 @@
 </head>
 <body>
     <header class="header">
-        <div class="header-logo">
-            <img src="img/logo.png" alt="logo">
+        <div class="header-menu-first">
+            <div class="header-logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <div class="header-menu">
+                <div class="header-name">MENU</div>
+                <svg class="ham hamRotate180 ham5" viewBox="0 0 100 100" width="50" onclick="this.classList.toggle('active')">
+                    <path
+                          class="line top"
+                          d="m 30,33 h 40 c 0,0 8.5,-0.68551 8.5,10.375 0,8.292653 -6.122707,9.002293 -8.5,6.625 l -11.071429,-11.071429" />
+                    <path
+                          class="line middle"
+                          d="m 70,50 h -40" />
+                    <path
+                          class="line bottom"
+                          d="m 30,67 h 40 c 0,0 8.5,0.68551 8.5,-10.375 0,-8.292653 -6.122707,-9.002293 -8.5,-6.625 l -11.071429,11.071429" />
+                  </svg>
+            </div>
         </div>
-        <div class="header-menu">
-            <div class="header-name">MENU</div>
-            <svg class="ham hamRotate180 ham5" viewBox="0 0 100 100" width="50" onclick="this.classList.toggle('active')">
-                <path
-                      class="line top"
-                      d="m 30,33 h 40 c 0,0 8.5,-0.68551 8.5,10.375 0,8.292653 -6.122707,9.002293 -8.5,6.625 l -11.071429,-11.071429" />
-                <path
-                      class="line middle"
-                      d="m 70,50 h -40" />
-                <path
-                      class="line bottom"
-                      d="m 30,67 h 40 c 0,0 8.5,0.68551 8.5,-10.375 0,-8.292653 -6.122707,-9.002293 -8.5,-6.625 l -11.071429,11.071429" />
-              </svg>
+        <div class="header-item">
+            <div class="header-item-nav"><a href="index.html" class="a">Home</a></div>
+            <div class="header-item-nav"><a href="about.html" class="a active">About</a></div>
+            <div class="header-item-nav"><a href="blog.html" class="a">Blog</a></div>
+            <div class="header-item-nav"><a href="work.html" class="a">Work</a></div>
+            <div class="header-item-nav"><a href="contact.html" class="a">Contacts</a></div>
         </div>
     </header>
     <div class="about-bg"></div>
